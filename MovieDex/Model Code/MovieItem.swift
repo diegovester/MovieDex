@@ -44,9 +44,3 @@ let testMovieItem = MovieItem(id: 0, name: "*starting our path*")
 
 /// used when there is no Movie Item
 let noMovieItem = MovieItem(id: -1, name: "*N/A*")
-
-/// A test MenuItem for previews while composing views
-// let testMenuItem = MovieItem(id: 0, category: .italian, name: "Huli Chicken Pizza", description: "The classic pizza that started it all", crust: .neopolitan, price: 14.99, rating: 5)
-
-/// used when there is no Movie Item
-/// let noMenuItem = MovieItem(id: -1, category: .italian, name: "World Pizza with Aloha", description: "We're a small growing chain based in Honolulu, serivng pizzas from around the world and with Hawaiian influence.", crust: .neopolitan, price: 0, rating: 0)

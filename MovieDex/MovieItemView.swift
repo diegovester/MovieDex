@@ -15,11 +15,22 @@ struct MovieItemView: View {
         
         HStack
         {
-            Image("DVD")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 100)
-                
+            //Image("1")
+//                .resizable()
+//                .scaledToFit()
+//                .frame(width: 100)
+            if let image = UIImage(named: "\(item.id)"){
+                Image(uiImage: image)
+                    .resizable()
+                    .scaledToFit()
+                    .padding([.top,.bottom],5)
+                    .cornerRadius(15)
+                    
+            } else {
+                Image("DVD")
+                    .resizable()
+                    .scaledToFit()
+            }
             
             //Text(selectedMovie.name)
             Text(item.name)

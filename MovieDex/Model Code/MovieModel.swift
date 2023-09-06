@@ -40,47 +40,47 @@ let data = """
     {"movie":[
      {
        "id": 1,
-       "name": "What Dreams May Come "
+       "name": "What Dreams May Come"
      },
      {
        "id": 2,
-       "name": "Sense 8 "
+       "name": "Sense 8"
      },
      {
        "id": 3,
-       "name": "The OA "
+       "name": "The OA"
      },
      {
        "id": 4,
-       "name": "Happy Feet "
+       "name": "Happy Feet"
      },
      {
        "id": 5,
-       "name": "Hook "
+       "name": "Hook"
      },
      {
        "id": 6,
-       "name": "Flubber "
+       "name": "Flubber"
      },
      {
        "id": 7,
-       "name": "Dead Poet’s Society "
+       "name": "Dead Poet’s Society"
      },
      {
        "id": 8,
-       "name": "Avatar the Last Airbender "
+       "name": "Avatar the Last Airbender"
      },
      {
        "id": 9,
-       "name": "Doctor Who "
+       "name": "Doctor Who"
      },
      {
        "id": 10,
-       "name": "Star Trek "
+       "name": "Star Trek"
      },
      {
        "id": 11,
-       "name": "Veggie tales "
+       "name": "Veggie tales"
      },
      {
        "id": 12,
