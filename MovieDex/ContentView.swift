@@ -12,6 +12,7 @@ import SwiftUI
 struct ContentView: View {
     var movie:[MovieItem]
     var moviePrompt: String = "What movie should we watch tonight?"
+    @State private var randomInt:Int = 0
     @State private var selectedItem:MovieItem = noMovieItem
     @State private var movieGenre:MovieGenre = .drama
     var body: some View {
@@ -47,6 +48,19 @@ struct ContentView: View {
             Spacer()
             MovieItemView(item:$selectedItem)
             Spacer()
+            Button
+            {
+                randomInt = Int.random(in: 0..<10)
+                selectedItem = movie[randomInt]
+            }label: {
+                Text("🎲 Roll")
+            }
+                .padding(20)
+                .background(.blue, in:Capsule())
+                .foregroundColor(.white)
+                .font(.title).bold()
+                
+                
            
         }
     }
