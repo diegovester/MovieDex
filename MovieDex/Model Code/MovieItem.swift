@@ -12,6 +12,7 @@ import Foundation
 struct MovieItem:Codable,Hashable,Identifiable{
     var id:Int
     var name:String
+    var genre:String
     // TODO: rating
     // var rating:Int
     // TODO: Rose has seen it or not
@@ -26,7 +27,8 @@ struct MovieItem:Codable,Hashable,Identifiable{
     /// Custom equals method necessary for navigation paths to use `Equatable` protocol
     static func ==(lhs:MovieItem, rhs:MovieItem)->Bool{
         lhs.id == rhs.id &&
-        lhs.name == rhs.name
+        lhs.name == rhs.name &&
+        lhs.genre == rhs.genre
     }
 }
 
@@ -40,7 +42,7 @@ enum MovieGenre: String,Codable,CaseIterable {
 
 
 /// A test MenuItem for previews while composing views
-let testMovieItem = MovieItem(id: 0, name: "*starting our path*")
+let testMovieItem = MovieItem(id: 0, name: "*starting our path*", genre: "Drama")
 
 /// used when there is no Movie Item
-let noMovieItem = MovieItem(id: -1, name: "*N/A*")
+let noMovieItem = MovieItem(id: -1, name: "*N/A*", genre: "Drama")
