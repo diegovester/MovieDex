@@ -39,19 +39,27 @@ struct ContentView: View {
                     Text("Movie Genre")
                 }
                 .pickerStyle(MenuPickerStyle())
+                Text(movieGenre.rawValue)
                 
             }
                 .padding(30)
                 .background(
                 .ultraThickMaterial, in: Rectangle())
                 .cornerRadius(50)
+            
             Spacer()
             MovieItemView(item:$selectedItem)
             Spacer()
+            Text(selectedItem.genre)
             Button
             {
                 randomInt = Int.random(in: 0..<10)
                 selectedItem = movie[randomInt]
+                if(selectedItem.genre != movieGenre.rawValue)
+                {
+                    selectedItem = noMovieItem
+                }
+                
             }label: {
                 Text("🎲 Roll")
             }

@@ -14,6 +14,7 @@
 		9D0829322A8EF6CD003CEECA /* MovieDexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D0829312A8EF6CD003CEECA /* MovieDexTests.swift */; };
 		9D08293C2A8EF6CD003CEECA /* MovieDexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08293B2A8EF6CD003CEECA /* MovieDexUITests.swift */; };
 		9D08293E2A8EF6CD003CEECA /* MovieDexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08293D2A8EF6CD003CEECA /* MovieDexUITestsLaunchTests.swift */; };
+		9D379D182AAA3153008B9B61 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9D379D172AAA3153008B9B61 /* README.md */; };
 		9D8489282AA00F2D00F6D145 /* MovieItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8489272AA00F2D00F6D145 /* MovieItemView.swift */; };
 		9D8CFDB72A930B65000520B2 /* movies.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 9D8CFDB62A930B65000520B2 /* movies.rtf */; };
 		9D8CFDBA2A930E60000520B2 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8CFDB92A930E60000520B2 /* MovieModel.swift */; };
@@ -49,6 +50,7 @@
 		9D0829372A8EF6CD003CEECA /* MovieDexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieDexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D08293B2A8EF6CD003CEECA /* MovieDexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDexUITests.swift; sourceTree = "<group>"; };
 		9D08293D2A8EF6CD003CEECA /* MovieDexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9D379D172AAA3153008B9B61 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9D8489272AA00F2D00F6D145 /* MovieItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieItemView.swift; sourceTree = "<group>"; };
 		9D8CFDB62A930B65000520B2 /* movies.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = movies.rtf; sourceTree = "<group>"; };
 		9D8CFDB92A930E60000520B2 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 		9D0829132A8EF6CB003CEECA = {
 			isa = PBXGroup;
 			children = (
+				9D379D172AAA3153008B9B61 /* README.md */,
 				9D08291E2A8EF6CB003CEECA /* MovieDex */,
 				9D0829302A8EF6CD003CEECA /* MovieDexTests */,
 				9D08293A2A8EF6CD003CEECA /* MovieDexUITests */,
@@ -255,6 +258,7 @@
 			files = (
 				9D0829282A8EF6CD003CEECA /* Preview Assets.xcassets in Resources */,
 				9D8CFDB72A930B65000520B2 /* movies.rtf in Resources */,
+				9D379D182AAA3153008B9B61 /* README.md in Resources */,
 				9D0829242A8EF6CD003CEECA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
